@@ -5,13 +5,15 @@ import image3 from "../../Assets/istockphoto1.webp"
 import image4 from "../../Assets/istockphoto4.webp"
 import image5 from "../../Assets/OIP (1).webp"
 import image6 from "../../Assets/OIP.webp"
+import image7 from "../../Assets/istockphoto5.jpg"
 
 function Home() {
   return (
     <div className='w-screen overflow-auto'>
     
-    <div className='py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:space-y-0 sm:space-x-6 '>
+    <div className='w-full flex sm:space-x-6 '>
       <img className='block mx-auto rounded-sm sm:mx-0 sm:flex-shrink-0' src={image} alt='welcome to Sew-trillion'/> 
+      <img className='block mx-auto rounded-sm sm:mx-0 sm:flex-shrink-0' src={image7} alt='welcome to Sew-trillion'/> 
     </div>
     <div>
        <h3 className='bg-slate-400 relative text-yellow-300'> Welcome to Sew-trillion</h3>

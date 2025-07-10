@@ -26,7 +26,6 @@ function App() {
     <div>
       <div className="flex shadow-2lg">
         <header className=" w-full bg-gradient-to-r from-green-400 to-blue-500">
-          
           <h1 className=" text-bold text-white">SEW-Trillion</h1>
            <div className=" gap-11 object-right-bottom ">
             <button className="bottom-0 right-12 h-8 w-16 max-w-24 bg-yellow-600 shadow-md  rounded-md">{'Login'}</button>
