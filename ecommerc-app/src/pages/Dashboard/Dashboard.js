@@ -1,67 +1,88 @@
 import React from 'react'
-//import Transaction from './Transaction.js'
+import DashboardGrid from "../DashboardGrid/DashboardGrid"
+import BarChart from '../DashboardGrid/BarChart'
+import { FaBriefcase } from 'react-icons/fa'
 function Dashboard() {
   return (
-    <div>
+    <div className='w-full relative h-screen bg-gradient-to-r from-yellow-100 to-sky-600  border-round border-2 border-gray-500'>
       <header className='w-full object-contain'>
-        <p className='text-center text-white bg-orange-400'> This is header</p>
+        <p className='text-center text-white bg-orange-400'> Dashboard</p>
 
       </header>
-      <main className='object-contain top-10 bottom-40 overflow-auto h-80 w-full  border-rounded shadow-2lg'>
-        <div className=' w-full h-fit grid gap-4 grid-cols-2 shadow-inner hover:border-blue justify-between'>
-          <div className=' border-2 border-fuchsia-500 grid h=32 w-32 p-4 box-border gap-x-4 gap-y-2 grid-cols-2 '>
-            Transaction history
+      
+        <div className='flex gap-4 w-full'>
+        <BoxWrapper>
+          <div className='rounded-full bg-sky-500 h-12 w-12 items-center justify-center'>
+            <FaBriefcase className='text-2lg text-white'/>
           </div>
-          <div className=' border-2 border-fuchsia-500 grid h=32 w-32 p-4 box-border gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
-            <p> Membership data</p>
-          </div>
-          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
-            <p> Total deposit</p>
-          </div>
-          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
-            <p> Saved money</p>
-          </div>
-          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
-            <p> Top Products</p>
-          </div>
-          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-y gap-y-2 grid-cols-2 shadow-inner'>
-            <p>Top Service</p>
-          </div>
-          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
-            <p> Member Data</p>
-          </div>
-        </div>
-        <div className='flex gap-10 justify-center items-center'>
-          <div className='bg-black  border-sky-100 border-rounded'>
-            <p className='text-white'>
-              Revenue
-            </p>
-            <div>
-              <p>Revenue details</p>
-            </div>
-            </div>
-            <div className='bg-black border-sky-100 border-rounded'>
-            <p className='text-white'>
-              Sales
-            </p>
-            <div>
-              <p>sales detail</p>
-            </div>
-          </div>
-          <div className='bg-black  border-sky-100 border-rounded'>
-            <p className='text-white'>
-            Purchase
-          </p>
-          <div>
-            <p> Purchase  details</p>
-          </div>
-          </div>
-          
-        </div>
+          <div className='pl-4'>
+            <span className='text-sm text-gray-500 font-light'> Total sales</span>
+            <div className='flex items-center'>
+              <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
+              <span className='text-sm text-green-500 pl-2'>+34%</span>
 
-      </main>
-    </div>
+            </div>
+
+          </div>
+        </BoxWrapper>
+        <BoxWrapper>
+          <div className='rounded-full bg-sky-500 h-12 w-12 items-center justify-center'>
+            <FaBriefcase className='text-2lg text-white'/>
+          </div>
+          <div className='pl-4'>
+            <span className='text-sm text-gray-500 font-light'> Total sales</span>
+            <div className='flex items-center'>
+              <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
+              <span className='text-sm text-green-500 pl-2'>+34%</span>
+
+            </div>
+
+          </div>
+        </BoxWrapper>
+        <BoxWrapper>
+          <div className='rounded-full bg-sky-500 h-12 w-12 items-center justify-center'>
+            <FaBriefcase className='text-2lg text-white'/>
+          </div>
+          <div className='pl-4'>
+            <span className='text-sm text-gray-500 font-light'> Total sales</span>
+            <div className='flex items-center'>
+              <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
+              <span className='text-sm text-green-500 pl-2'>+34%</span>
+
+            </div>
+
+          </div>
+        </BoxWrapper>
+        <BoxWrapper>
+          <div className='rounded-full bg-sky-500 h-12 w-12 items-center justify-center'>
+            <FaBriefcase className='text-2lg text-white'/>
+          </div>
+          <div className='pl-4'>
+            <span className='text-sm text-gray-500 font-light'> Total sales</span>
+            <div className='flex items-center'>
+              <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
+              <span className='text-sm text-green-500 pl-2'>+34%</span>
+
+            </div>
+
+          </div>
+        </BoxWrapper>
+        </div>
+        <div className=' flex justify-center items-center space-x-4 py-4 gap-8 w-full h-20 '>
+          <div>
+        <DashboardGrid />
+        </div>
+      <div>
+        <BarChart />
+      </div>
+        </div>
+      </div>
+    
   )
 }
 
 export default Dashboard
+ 
+function BoxWrapper ({children}) {
+  return <div className='bg-white rounded-sm border border-gray-200 p-4 flex-1 flex'>{children}</div>
+}
