@@ -1,16 +1,11 @@
 import React from 'react'
-import Saving from '../Saving/Saving';
 
-function LoanService() {
+function Loan() {
   return (
-    <div className='bg-cyan-600 w-200 h-309'>
-      < Saving/>
-
-      <div>
-        This is Loan Service
-      </div>
-    </div>
-);
+    
+      <p>This is Loan Service</p>
+        
+  )
 }
 
-export default LoanService
+export default Loan

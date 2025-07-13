@@ -69,10 +69,10 @@ function MemberShip() {
               <div className="mbsc-form-group-title">Multiple columns grid</div>
               <div className="mbsc-row">
                 <div className="mbsc-col-md-6 mbsc-col-12">
-                  <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' type="text" label="Email" placeholder="Email" inputStyle="box" labelStyle="floating" />
+                  <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' type="text" label="Email" placeholder="Email" inputStyle="box" labelStyle="floating" />
                 </div>
                 <div className="mbsc-col-md-6 mbsc-col-12">
-                  <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent'
+                  <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent'
                     type="password"
                     label="Password"
                     placeholder="Password"
@@ -84,16 +84,16 @@ function MemberShip() {
               </div>
               <div className="mbsc-row">
                 <div className="mbsc-col-12">
-                  <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' type="text" label="Address" placeholder="Address" inputStyle="box" labelStyle="floating" />
+                  <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' type="text" label="Address" placeholder="Address" inputStyle="box" labelStyle="floating" />
                 </div>
               </div>
               <div className="mbsc-row">
                 <div className="mbsc-col-md-6 mbsc-col-12">
                   <input type="text" label="City" placeholder="City" inputStyle="box" labelStyle="floating" />
                 </div>
-                <div className='flex flex-1 mbsc-col-md-6 mbsc-col-12'>
-                  <select label="Country" inputStyle="box" labelStyle="floating">
-    <option>select country</option>
+                <div className='flex flex-1 mbsc-col-md-6 mbsc-col-12 gap-2 justify-start items-center border-4 shadow-white-200 shadow-inner'>
+                  <select className='bg-sky-300' label="Country" inputStyle="box" labelStyle="floating">
+    <option className='bg-sky-100'>select country</option>
     <option value="AF">Afghanistan</option>
     <option value="AX">Åland Islands</option>
     <option value="AL">Albania</option>
@@ -349,8 +349,8 @@ function MemberShip() {
 
                   </select>
                   <div className="mbsc-col-md-4 mbsc-col-6">
-                  <select label="State" inputStyle="box" labelStyle="floating">
-                    <option>select Region</option>
+                  <select className='bg-sky-300' label="State" inputStyle="box" labelStyle="floating">
+                    <option className='bg-sky-100'>select Region</option>
                     <option value="AA">Addis Ababa</option>
                     <option value="AM">Amahara</option>
                     <option value="OR">Oromia</option>
@@ -382,11 +382,11 @@ function MemberShip() {
             <div className="mbsc-col-sm-9 mbsc-col-md-7 mbsc-col-xl-5">
               <div className="mbsc-form-group">
                 <div className="mbsc-form-group-title">Single column grid</div>
-                <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="First Name" placeholder="First Name" />
-                <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Last Name" placeholder="Last Name" />
-                <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="User Name" placeholder="User Name" />
-                <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Company" placeholder="Company Name" />
-                <input className='border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Email" placeholder="Email Address" />
+                <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="First Name" placeholder="First Name" />
+                <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Last Name" placeholder="Last Name" />
+                <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="User Name" placeholder="User Name" />
+                <input className='border shadow-inner shadow-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Company" placeholder="Company Name" />
+                <input className='border shadow-inner shadow-gray-200shadow-inner shadow-gray-200  border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' label="Email" placeholder="Email Address" />
               </div>
             </div>
           </div>
