@@ -5,7 +5,9 @@ import Pimage4 from '../../Assets/istockphoto9.jpg'
 import Pimage5 from '../../Assets/istockphoto11.jpg'
 import Pimage6 from '../../Assets/istockphoto13.jpg'
 import Pimage7 from '../../Assets/istockphoto18.jpg'
-import Pimage8 from '../../Assets/istockphoto18.jpg'
+import Pimage9 from '../../Assets/premium_photo5.avif' 
+import Pimage10 from '../../Assets/istockphoto24.jpg'
+import Pimage11 from '../../Assets/EnConsultb.jpg'
 
 
 function Service() {
@@ -53,14 +55,29 @@ function Service() {
              <div className='w-64 h-64 bg-white shadow-md rounded-lg overflow-hidden'>
               <img src={Pimage7} alt="Product 2" className='w-full h-40 object-cover' />
               <div className='p-4'>
-                <h3 className='text-lg font-semibold'>Cereals</h3>
+                <h3 className='text-lg font-semibold'>Transport and Car Rental Service</h3>
                 <p className='text-gray-600'>Description of Product 2</p>
               </div>
             </div>
              <div className='w-64 h-64 bg-white shadow-md rounded-lg overflow-hidden'>
-              <img src={Pimage8} alt="Product 2" className='w-full h-40 object-cover' />
+              <img src={Pimage9} alt="Product 2" className='w-full h-40 object-cover' />
               <div className='p-4'>
-                <h3 className='text-lg font-semibold'>Cereals</h3>
+                <h3 className='text-lg font-semibold'>Financial and Auditing</h3>
+                <p className='text-gray-600'>Description of Product 2</p>
+              </div>
+              
+            </div>
+             <div className='w-64 h-64 bg-white shadow-md rounded-lg overflow-hidden'>
+              <img src={Pimage10} alt="Product 2" className='w-full h-40 object-cover' />
+              <div className='p-4'>
+                <h3 className='text-lg font-semibold'>General Maintenance</h3>
+                <p className='text-gray-600'>Description of Product 2</p>
+              </div>
+            </div>
+             <div className='w-64 h-64 bg-white shadow-md rounded-lg overflow-hidden'>
+              <img src={Pimage11} alt="Product 2" className='w-full h-40 object-cover' />
+              <div className='p-4'>
+                <h3 className='text-lg font-semibold'>Environmental Consulting</h3>
                 <p className='text-gray-600'>Description of Product 2</p>
               </div>
             </div>

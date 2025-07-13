@@ -1,13 +1,15 @@
 import React from 'react'
-
+import MoneyManager from './SavingDetails/MoneyManager.js'
 
 function Saving() {
   return (
-  
-     <div>
-       Saving
-  </div>
- )
+    <div>
+      <div>
+        <MoneyManager />
+      </div>
+
+    </div>
+  )
 }
 
 export default Saving
