@@ -7,7 +7,7 @@ import MembersProfile from '../DashboardGrid/MembersProfile.js'
 
 function Dashboard() {
   return (
-    <div className='w-full relative h-screen bg-gradient-to-r from-yellow-100 to-sky-600  border-round border-2 border-gray-500'>
+    <div className='w-full relative h-screen bg-gradient-to-r  shadow-2lg from-gray-600 to-white-100  border-round border-2 border-gray-500'>
       <header className='w-full object-contain'>
         <p className='text-center text-white bg-orange-400'> Dashboard</p>
 
@@ -20,7 +20,7 @@ function Dashboard() {
           <BuyerChart/>
          </div>
          <div>
-          <div className='flex px-4 gap-4 justify-center items-center'>
+          <div className='flex w-full px-4 gap-4 justify-center items-center flex-1'>
           <SaveLoanService/>
           <MembersProfile/>
          </div>

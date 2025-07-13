@@ -5,9 +5,9 @@ import { FaPeopleCarry } from 'react-icons/fa'
 function SaveLoanService() {
   return (
     <div>
-            <div className='flex gap-4 w-full'>
+            <div className='flex gap-2 w-[20rem]'>
                     <BoxWrapper>
-                      <div className='rounded-full flex bg-sky-500 h-12 w-12 items-center justify-center'>
+                      <div className='rounded-full flex bg-sky-500 h-8 w-8 items-center justify-center'>
                         <FaMoneyBill className='text-2lg text-white'/>
                       </div>
                       <div className='pl-4'>

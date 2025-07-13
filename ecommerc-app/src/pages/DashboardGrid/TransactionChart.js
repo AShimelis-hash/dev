@@ -82,7 +82,7 @@ function TransactionChart() {
     <div className='h-[19rem] bg-white p-4 rounded-sm border-gray-200 flex flex-1'>
       <strong className='text-gray-700 font-medium'>Transaction</strong>
     <div className='w-full'>
-      <ResponsiveContainer width='60%' height='60%'>
+      <ResponsiveContainer width='100%' height='100%'>
       <BarChart width={100} height={150} data={data} margin={{
         top:20,
         right:10,

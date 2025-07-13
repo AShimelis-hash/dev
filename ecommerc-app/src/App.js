@@ -25,7 +25,7 @@ function App() {
     <div>
     <div>
       <div className="flex shadow-2lg">
-        <header className=" w-full bg-gradient-to-r from-green-400 to-blue-500">
+        <header className=" w-full bg-gradient-to-r from-gray-400 to-white-500">
           <h1 className=" text-bold text-white">SEW-Trillion</h1>
            <div className=" gap-11 object-right-bottom ">
             <button className="bottom-0 right-12 h-8 w-16 max-w-24 bg-yellow-600 shadow-md  rounded-md">{'Login'}</button>
@@ -54,7 +54,7 @@ function App() {
                   <Route path='logout' element={ <Logout/>}/>
         </Routes>
       </div>
-      <footer className="fixed bottom-0 border w-full h-40">
+      <footer className="fixed bottom-0 border w-full h-20">
         <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-md gap-2">
          <div className=' shadow-lg px-8 py-5 border w-96'>
           <span> Adders</span>
@@ -67,12 +67,6 @@ function App() {
           <h2> <FaFacebook/></h2> <p> 0922147734</p>
           <h2> <FaLinkedin/></h2> <p> ...@gmail.com</p>
           <h2> <FaTwitter/></h2> <p> 0922147734</p>
-         </div>
-         <div className='shadow-lg px-8 py-5 border w-96'>
-          <span> Social Media</span>
-          <h2> Facebook</h2> <h3> 0922147734</h3>
-          <h2> LinkendIn</h2> <h3> ...@gmail.com</h3>
-          <h2> Website Adders</h2> <h3> 0922147734</h3>
          </div>
         </div>
       </footer>

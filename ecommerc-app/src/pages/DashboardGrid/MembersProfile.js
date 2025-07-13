@@ -3,9 +3,10 @@ import { PieChart, Pie, Legend, Cell, ResponsiveContainer } from 'recharts';
 const MembersProfile = () => {
 
 const data = [
-  {name: "male", value:580},
-  {name: "Female", value:620},
-  {name: "Others", value:210},
+  {name: "Students", value:580},
+  {name: "Farmers", value:620},
+  {name: "Business man", value:210},
+   {name: "Professionals", value:340},
 ];
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
  
@@ -27,7 +28,7 @@ return (
   <div className='h-[22rem] bg-white p-4 rounded-sm border-gray-200 flex'>
     <div className='text-gray-700 font-medium'><strong>Buyer demography</strong></div>
     <div className="col-md-8">
-                        <ResponsiveContainer width={150} height={200} className="text-center">
+                        <ResponsiveContainer width={350} height={200} className="text-center">
                             <PieChart width={100} height={100}>
                                 <Legend layout="vertical" verticalAlign="top" align="top" />
                                 <Pie
