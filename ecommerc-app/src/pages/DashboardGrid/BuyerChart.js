@@ -24,13 +24,14 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
 };
 return (
-  <div className='h-[22rem] bg-white p-4 rounded-sm border-gray-200 flex'>
-    <div className='text-gray-700 font-medium'><strong>Buyer demography</strong></div>
-    <div className="col-md-8">
+  <div className='h-[22rem] bg-white p-4 rounded-sm border-gray-200 flex flex-1'>
+    
+    <div className="col-md-8 bg-blue-100 ">
+         <div className='text-gray-700 font-medium inline-block'><strong>Buyer demography</strong></div>
                         <ResponsiveContainer width={250} height={300} className="text-center">
                             <PieChart width={200} height={200}>
-                                <Legend layout="vertical" verticalAlign="top" align="top" />
-                                <Pie
+                                <Legend layout="horizontal" verticalAlign="top" align="top" />
+                                <Pie className='flex'
                                     data={data}
                                     cx="50%"
                                     cy="50%"

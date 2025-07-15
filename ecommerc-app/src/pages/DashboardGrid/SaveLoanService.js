@@ -5,12 +5,12 @@ import { FaPeopleCarry } from 'react-icons/fa'
 function SaveLoanService() {
   return (
     <div>
-            <div className='flex gap-2 w-[20rem]'>
+            <div className='flex gap-2 border-rounded shadow-lg overflow-hidden'>
                     <BoxWrapper>
                       <div className='rounded-full flex bg-sky-500 h-8 w-8 items-center justify-center'>
                         <FaMoneyBill className='text-2lg text-white'/>
                       </div>
-                      <div className='pl-4'>
+                      <div className='pl-4 border-sm border-rounded shadow-lg shadow-inner'>
                         <span className='text-sm text-gray-500 font-light'> Total Saves</span>
                         <div className='flex items-center'>
                           <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
@@ -24,7 +24,7 @@ function SaveLoanService() {
                       <div className='rounded-full flex bg-red-500 h-12 w-12 items-center justify-center'>
                         <FaMoneyBillAlt className='text-2lg text-white'/>
                       </div>
-                      <div className='pl-4'>
+                      <div className='pl-4 border-sm border-rounded shadow-lg shadow-inner'>
                         <span className='text-sm text-gray-500 font-light'> Total loan</span>
                         <div className='flex items-center'>
                           <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>
@@ -38,7 +38,7 @@ function SaveLoanService() {
                       <div className='rounded-full flex bg-yellow-500 h-12 w-12 items-center justify-center'>
                         <FaPeopleCarry className='text-2lg text-white'/>
                       </div>
-                      <div className='pl-4'>
+                      <div className='pl-4 border-sm border-rounded shadow-lg shadow-inner'>
                         <span className='text-sm text-gray-500 font-light'> Total service</span>
                         <div className='flex items-center'>
                           <strong className='text-xl text-gray-700 font-semibold'>$3452</strong>

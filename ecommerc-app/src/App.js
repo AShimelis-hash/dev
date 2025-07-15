@@ -54,15 +54,15 @@ function App() {
                   <Route path='logout' element={ <Logout/>}/>
         </Routes>
       </div>
-      <footer className="fixed bottom-0 border w-full h-20">
-        <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-md gap-2">
-         <div className=' shadow-lg px-8 py-5 border w-96'>
+      <footer className="fixed bottom-0  w-full h-30">
+        <div className=" flex bg-yellow-200  items-center justify-center shadow-lg border-md gap-2">
+         <div className=' flex gap-4 border-sm border-rounded shadow-lg px-8 py-5 justify-center items-center'>
           <span> Adders</span>
-          <p> <FaPhone/></p> <p> 0922147734</p>
+          <p> <FaPhone/></p> <p> +251922147734</p>
           <p> <FaMailBulk/></p> <p> shimelisget2@gmail.com</p>
           
          </div>
-         <div className='shadow-lg px-8 py-5 border w-96'>
+         <div className='flex gap-4 border-sm border-rounded shadow-lg px-8 py-5 justify-center items-center '>
           <span> Social Media</span>
           <h2> <FaFacebook/></h2> <p> 0922147734</p>
           <h2> <FaLinkedin/></h2> <p> ...@gmail.com</p>
